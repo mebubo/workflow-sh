@@ -1,0 +1,9 @@
+#!/bin/bash
+
+
+INPUT=$1
+OUTPUT=$2
+
+source $INPUT
+
+sort $FILES > $OUTPUT/sorted
